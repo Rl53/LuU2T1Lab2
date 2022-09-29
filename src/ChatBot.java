@@ -44,4 +44,15 @@ public class ChatBot {
     public String goodbye() {
         return "It was nice talking with you! Have a great day! Sincerely, " + name;
     }
+
+    //method that multiplies and returns the product of three numbers
+    public double multiplyNumbers(double num1, double num2, double num3) {
+        return num1 * num2 * num3;
+    }
+
+    //method that prints information about what the season is
+    public void season() {
+            System.out.println("Did you know that right now is Autumn?");
+            System.out.println("It is almost Halloween!");
+    }
 }
